@@ -4,7 +4,7 @@
 #
 Name     : nbclassic
 Version  : 0.2.5
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/7f/bb/8934730affc5a155d39766c15f92317484e16d011030420d09f2626127b9/nbclassic-0.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7f/bb/8934730affc5a155d39766c15f92317484e16d011030420d09f2626127b9/nbclassic-0.2.5.tar.gz
 Summary  : Jupyter Notebook as a Jupyter Server Extension.
@@ -17,6 +17,7 @@ Requires: nbclassic-python = %{version}-%{release}
 Requires: nbclassic-python3 = %{version}-%{release}
 Requires: notebook
 BuildRequires : buildreq-distutils3
+BuildRequires : jupyter_server
 BuildRequires : jupyterlab_server
 BuildRequires : notebook
 
@@ -80,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609953569
+export SOURCE_DATE_EPOCH=1609954362
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
