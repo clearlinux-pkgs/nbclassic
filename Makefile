@@ -1,5 +1,5 @@
 PKG_NAME := nbclassic
-URL = https://files.pythonhosted.org/packages/67/14/da7665a5f0c3d1c6831d867cc64d20aaedeb50719743594297a844851132/nbclassic-0.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/04/1f/0bee7bae33531275a2fc193bfe24cc4602c97d9b8e49007bcf6c057a4c0f/nbclassic-0.3.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
