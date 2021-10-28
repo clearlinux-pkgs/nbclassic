@@ -4,7 +4,7 @@
 #
 Name     : nbclassic
 Version  : 0.3.4
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/87/20/8b4637355ee0a00dcf97a821f67f65e8be5ee303a5e8d0c5759f85e64d79/nbclassic-0.3.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/87/20/8b4637355ee0a00dcf97a821f67f65e8be5ee303a5e8d0c5759f85e64d79/nbclassic-0.3.4.tar.gz
 Summary  : Jupyter Notebook as a Jupyter Server extension.
